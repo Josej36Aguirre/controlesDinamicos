@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="controlesDinamicos.DemoTriggerl">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView HeightRequest="300">
+               
+            </BoxView>
+            <TableView>
+                <TableSection>
+                    <EntryCell Placeholder="Ingresar Título" Label="Ingresar Título"></EntryCell>
+
+                    <EntryCell Placeholder="Autor" Label="Autor"></EntryCell>
+
+                    <EntryCell Placeholder="Ingresar Area" Label="Ingresar Area"></EntryCell>
+                    
+                    <Button Text="Enviar" HorizontalOptions="Center"></Button>
+                </TableSection>
+            </TableView>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

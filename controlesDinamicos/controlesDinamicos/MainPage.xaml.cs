@@ -11,7 +11,17 @@ namespace controlesDinamicos
 	{
 		public MainPage()
 		{
-			InitializeComponent();
-		}
-	}
+            boton1.Clicked += Boton1_Clicked;
+
+        }
+
+        private void Boton1_Clicked(object sender, EventArgs e)
+        {
+            Panel.Children.Add(new Button()
+            {
+
+                Text = $"Boton{Panel.Children.Count+1}"
+            });
+        }
+    }
 }

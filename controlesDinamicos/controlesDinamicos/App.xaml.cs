@@ -13,7 +13,7 @@ namespace controlesDinamicos
 		{
 			InitializeComponent();
 
-			MainPage = new controlesDinamicos.MainPage();
+			MainPage = new controlesDinamicos.DemoTriggerl();
 		}
 
 		protected override void OnStart ()
